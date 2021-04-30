@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">            <!--  normalize file call  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Special design </title>
+</head>
+<body>
+    <div class="settings-box">      <!-- to be able to cofigurate our page -->
+            <div class="icon-container">
+                <i class="fas fa-cog"></i>
+            </div>
+            
+
+            <div class="settings-container">
+                <div class="settings-cont"> 
+                    <h4 class="options-title"> colors options </h4>
+                    <ul class="colors-list">
+                        <li data-color="#07e069" class="active1"></li>
+                        <li data-color="#1E90FF"></li>
+                        <li data-color="#FF9800"></li>
+                        <li data-color="#8B008B"></li>
+                    </ul>
+                </div>
+
+                <div class="settings-cont box">
+                    <h4 class="random-text"> random backgrounds </h4>
+                    <div class="random-backgrounds">
+                        <span class="button yes active" data-background="yes"> Yes </span>
+                        <span class="button no" data-background="noo"> No </span>
+                    </div>
+                </div>
+            
+                <div class="settings-cont box2">
+                    <div class="random-options"> 
+                        <h4 class="random-text"> control background  </h4>
+                        <span class="button stop" data-background="stop-background"> stop it </span>
+                    </div>
+                </div>
+
+                <div class="settings-cont box3">
+                    <h4 class="random-text"> show bullets  </h4>
+                    <div class="other-options">
+                        <span class="button show-bullets active" data-display="show"> Yes </span>
+                        <span class="button hide-bullets" data-display="hide"> No </span>
+                    </div>
+                </div>
+            
+            <button class="reset-option"> reset options </button>
+            </div>
+        </div>
+
+        <div class="bullets-container">
+            <div class="bullet" data-section=".about-us">
+            <div class="tool">About us</div>
+            </div>
+            <div class="bullet" data-section=".skills">
+            <div class="tool">Our skills</div>
+            </div>
+
+            <div class="bullet" data-section=".gallery">
+            <div class="tool"> Our gallery</div>
+            </div>
+
+            <div class="bullet" data-section=".timeline">
+            <div class="tool">Timeline</div>
+                
+            </div>
+
+            <div class="bullet" data-section=".testimonials">
+                <div class="tool">Testimonials</div>
+            </div>
+
+            <div class="bullet" data-section=".contact">
+                <div class="tool">Comtact us </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container"> 
+        <div class="overlay">   </div>
+        <div class="container-holder simple-container">    
+            <div class="header-container">
+                <div class="logo"> <h2 class="special"> special design </h2> </div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li><a href="" class="active"    data-section=".about-us">about</a> </li>   
+                        <li><a href="" class="nonactive" data-section=".skills">skills</a> </li>
+                        <li><a href="" class="nonactive" data-section=".gallery">gallery</a> </li>
+                        <li><a href="" class="nonactive" data-section=".timeline">timeline</a> </li>
+                        <li><a href="" class="nonactive" data-section=".features">feautures</a> </li>
+                        <li><a href="" class="nonactive" data-section=".testimonials">testimonials</a> </li>
+                        <li><a href="" class="nonactive" data-section=".contact">contact</a> </li>
+                    </ul>
+                </div>
+
+                    <span class="menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+            </div>
+        </div>
+
+        <div class="intro-text">
+            <h1>We are a<span class="creative-span"> creative </span> agency </h1> <!-- span is just reference like label-->
+            <p> We are all about making epic sh*t </p>
+        </div>
+    </div>
+
+    <div class="about-us">
+        <div class="container-holder">
+            <h2>  About us  </h2>
+            <div class="info-box">
+
+            <p>
+                    When you feel comfortable with HTML and CSS, it is time to dig deeper.
+
+                    You should learn how to use Maps, Fonts and Icons in HTML.
+
+                    On the JavaScript side, you should learn how to access the HTML DOM.
+
+                    You should also learn how to use AJAX and JSON for making server requests
+                    <div class="img-3D">
+                        <img src="images/illustration.jpg" alt="Illustration">
+                    </div>
+    
+                </p>
+    </div>
+
+    </div>
+
+</div>
+
+<div class="skills">
+    <div class="container-holder">
+        <h2>    our skills </h2>
+    <div class="skill-box">
+            <div class="skill-name"> html  </div>
+            <div class="skill-progress">   
+                <span data-progress="90%">
+                    
+                </span>
+            </div>
+    </div>
+    
+    <div class="skill-box">
+        <div class="skill-name"> css    </div>
+        <div class="skill-progress">
+            <span data-progress="70%">
+            
+                </span>
+        </div>
+    </div>
+    
+    <div class="skill-box">
+        <div class="skill-name"> JavaScript   </div>
+        <div class="skill-progress">
+            <span  data-progress="60%">
+            
+                </span>
+        </div>
+    </div>
+
+    <div class="skill-box">
+        <div class="skill-name"> C  </div>
+        <div class="skill-progress">
+            <span data-progress="95%">
+            
+                </span>
+        </div>
+    </div>
+
+    <div class="skill-box">
+        <div class="skill-name"> PHP   </div>
+        <div class="skill-progress">
+            <span data-progress="45%">
+            
+                </span>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="container-holder">
+    <div class="gallery">
+        <h2 class="gallery-title">  our gallery  </h2>
+        <div class="gallery-pics">
+            <img src="images/gallery6.jpg"      alt="First Image">
+            <img src="images/gallery7.png"      alt="Second image">
+            <img src="images/gallery8.jpg"      alt="Third Image">
+            <img src="images/gallery9.jpg"      alt="Forth Image">
+            <img src="images/wallpaper12.jpg"   alt="Fifth Image">
+            <img src="images/gallery7.png"      alt="Sixth Image">
+            <img src="images/wallpaper11.jpg"   alt="">
+            <img src="images/gallery1.jpg"      alt="">
+            <img src="images/gallery10.jpg"     alt="">
+            <img src="images/gallery3.jpg"      alt="">
+        </div>
+    </div>
+</div>
+
+<div class="timeline">
+    <div class="container-holder">
+        <div class="timeline-content">
+            <div class="year">  2018 </div>
+        
+                <div class="left">
+                <h3>   testing headings </h3>
+                <p class="para">
+                    A paragraph is a group of words put together to form a group that is usually longer than a sentence. Paragraphs are often made up of several sentences. ... This makes it easier to see when one paragraph ends and another begins. In most organized forms of writing, such as essays, paragraphs contain a topic sentence .
+                </p>
+            </div>
+            <!--clearfix is class to solve the float problem-->
+            <div class="clearfix"></div>
+
+            <div class="right">
+                <h3>   testing headings </h3>
+                <p class="para">
+                    A paragraph is a group of words put together to form a group that is usually longer than a sentence. Paragraphs are often made up of several sentences. ... This makes it easier to see when one paragraph ends and another begins. In most organized forms of writing, such as essays, paragraphs contain a topic sentence .
+                </p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+
+<div class="features">
+    <h2>   our feautures </h2>
+
+    <div class="container-holder">
+        <div class="holder5">
+            <div class="feat-box">
+                <img src="images/imgs/dev2.jpg" alt="">
+                    <h4> Marketing </h4>
+                    <p> 
+                    we are professional marketers .
+                    </p>
+            </div>
+        
+        
+            <div class="feat-box">
+                <img src="images/imgs/dev.jpg" alt="">
+                    <h4> Hosting </h4>
+                    <p>
+                        we are professional marketers .
+                    </p>
+                
+        
+            </div>
+        
+            <div class="feat-box">
+                <img src="images/imgs/dev3.jpg" alt="">
+                    <h4> Cloud and servers </h4>
+                    <p>
+                        we are professional marketers .
+                    </p>
+        
+            </div>
+    
+    </div>
+    <div class="holder6">
+        <div class="feat-box">
+            <img src="images/imgs/dev4.jpg" alt="">
+                <h4> Development </h4>
+                <p> 
+                    we are professional marketers .
+                </p>
+            
+
+        </div>
+    
+        <div class="feat-box">
+            <img src="images/imgs/dev5.png" alt="">
+            
+                <h4> Seo </h4>
+
+                <p>
+                    we are professional marketers .
+                </p>
+            
+        </div>
+    
+        <div class="feat-box">
+            <img src="images/imgs/L&D.png" alt="">
+                <h4> Seo </h4>
+                <p>
+                    we are professional marketers .
+                </p>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+<div class="testimonials">
+    <div class="container-holder">
+        <h2 class="ts-title">
+            testimonials
+        </h2>
+    
+        <div class="ts-content">
+                <div class="ts-box">
+                    <p>The product was amazing and I'm very happy . Also the price wasn't expensive .</p>
+                    <div class="person">
+                        <img src="images/gallery.jpg" alt="">
+                        <h5>  mahmoud ayari  </h5>
+                        <p> NASA </p>
+                    </div>
+                
+                </div>
+    
+                <div class="ts-box">
+                    <p>The product was amazing and I'm very happy . Also the price wasn't expensive .</p>
+                    <div class="person">
+                        <img src="images/gallery.jpg" alt="">
+                        <h5>  lassaed ben rhouma  </h5>
+                        <p> CEO company </p>
+                    </div>
+                </div>
+        
+                <div class="ts-box">
+                    <p>The product was amazing and I'm very happy . Also the price wasn't expensive .</p>
+                    <div class="person">
+                        <img src="images/gallery.jpg" alt="">
+                        <h5>  ahmed abdelaziz  </h5>
+                        <p> HBO company </p>
+                    </div>
+                </div>
+    
+        </div>
+    </div>
+
+
+</div>
+
+<!--contact us -->
+
+<div class="contact">
+    <div class="container-holder">
+        <div class="contact-container">
+            <h2>   Contact us </h2>
+        </div>
+    
+        <form action="">
+                <div class="container-form">   
+                    <input type="text" name="name" placeholder="Your name">
+                    <input type="text" name="phone" placeholder="Your phone number">
+                    <input type="text" name="email" placeholder="Your email">
+                    <input type="text" name="subject" placeholder="Your subject">
+                </div>
+                <div class="container-textarea">
+                    <textarea name="msg" placeholder="Enter a message">   </textarea>
+                    <input type="submit" class="sub-butt" value="Send">  
+                </div>
+            </form>
+    </div>
+
+
+</div>
+
+
+
+
+<script src="minified/gsap.min.js">    </script>            <!--gsap call must be the first-->
+<script language="javascript" src="js/control.js"> </script>
+</body>
+
+</html>
